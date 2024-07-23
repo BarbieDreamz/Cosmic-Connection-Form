@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Form Template</title>
+<form>
+    <h4>This form does not submit to anything. It's for funsies!</h4>
+    <!-- no css or JS...YET -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" placeholder="BarbieDream_z" required><br>
+
+    <label for "password">Password:</label>
+    <input type="password" id="password" placeholder="7 characters" minlength="7" required><br>
+    
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" placeholder="youremail@yahoo.com"><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <br>
+    <!-- pattern[0-9]{3}-[0-9]{3}-[0-9]{4} This forces the 000-000-0000 pattern by the users first set of brackets says
+     numbers 0 to 0 in a 3 digit format, second set same thing, third set same thing with a 4 digit format-->
+<div>
+    <label for="birthday">Birth Date:</label>
+    <input type="date" id="birthday"><br> <br>
+</div>
+
+<div>
+     <h3>Select your zodiac sign:</h3>
+    <input type="radio" id="Capricorn" name="horoscope" value="Capricorn" required>
+     <label for="Capricorn">Capricorn</label><br>
+
+     <input type="radio" id="Aquarius" name="horoscope" required>
+     <label for="Aquarius">Aquarius</label><br>
+     
+     <input type="radio" id="Pisces" name="horoscope" required>
+     <label for="Pisces">Pisces</label><br>
+
+     <input type="radio" id="Aries" name="horoscope" required>
+     <label for="Aries">Aries</label><br>
+
+     <input type="radio" id="Taurus" name="horoscope" required>
+     <label for="Taurus">Taurus</label><br>
+
+     <input type="radio" id="Gemini" name="horoscope" required>
+     <label for="Gemini">Gemini</label><br>
+
+     <input type="radio" id="Cancer" name="horoscope" required>
+     <label for="Cancer">Cancer</label><br>
+
+     <input type="radio" id="Leo" name="horoscope" required>
+     <label for="Leo">Leo</label><br>
+
+     <input type="radio" id="Virgo" name="horoscope" required>
+     <label for="Virgo">Virgo</label><br>
+
+     <input type="radio" id="Libra" name="horoscope" required>
+     <label for="Libra">Libra</label><br>
+     
+     <input type="radio" id="Scorpio" name="horoscope" required>
+     <label for="Scorpio">Scorpio</label><br>
+     
+     <input type="radio" id="Sagittarius" name="horoscope" required>
+     <label for="Sagittarius">Sagittarius</label><br><br>
+</div>
+
+<div>
+     <label for="color">Favorite Color:</label>
+        <select id="color">
+            <option value="pink">pink</option>
+            <option value="green">green</option>
+            <option value="blue">blue</option>
+            <option value="red">red</option>
+            <option value="yellow">yellow</option>
+        </select><br><br>
+</div>
+    
+    <div>
+    <label for="color">Selectable Colors:</label>
+    <input type="color" name="color" id="color"><br><br>
+    </div>
+<div>
+    <label for="fire">Fire Influence:</label>
+    <input type="checkbox" id="fire"><br>
+
+    <label for="earth">Earth Influence:</label>
+    <input type="checkbox" id="earth"><br>
+
+    <label for="wind">Wind Influence:</label>
+    <input type="checkbox" id="wind"><br>
+
+    <label for="air">Air Influence:</label>
+    <input type="checkbox" id="air"><br><br>
+    
+    <label for="requests">Requests:</label>
+    <textarea id="requests" rows="3" cols="50"</textarea></textarea><br><br>
+
+    <label for="files">Upload Files</label>
+    <input type="file" id="files" accept=".pdf"><br>
+</div>
+
+        </div>
+        </div><br> 
+    <input type="submit">
+    <input type="reset">
+</div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
